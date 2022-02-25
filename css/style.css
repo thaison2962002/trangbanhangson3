@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+    background: #BAFFB4;
+}
+/* sao sử dụng cho toàn trang */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+/*Menu*/
+.hmenu{position: fixed;width: 100%; z-index: 999;}
+.hmenu ul>li{display: inline-block;}
+ .hmenu>ul>li>a{display: block;}
+ .hmenu>ul{padding: 0px;
+margin: 0px;list-style: none;
+background-color: #db6521;
+text-align: center;}
+.hmenu>ul>li>a{text-decoration: none;
+font-variant: small-caps;
+font-size: larger;
+color: white;
+padding: 0px 10px;
+line-height: 40px;}
+.hmenu>ul>li>a:hover{color: yellow;word-spacing: 3px}
+.hmenu>ul>li{position: relative;}
+.submenu{margin: 0px;padding: 0px;;box-shadow: 0px 0px 5px gray;
+    background-color: wheat;
+position: absolute;display: none;}
+.submenu>li>a{display: block;
+line-height: 40px;
+text-decoration: none;
+font-variant: small-caps;
+color:#db6521;width: 200px;text-align: left;padding: 0px 10px;border-top: 1px solid silver;}
+.hmenu>ul>li:hover>.submenu{display: block;}
+.submenu>li>a:hover{background-color:#db6521;color: white;transition: ease-in 0.30s;
+    -moz-transition: ease-in 0.30s;-webkit-transition: ease-in 0.30s;}
+.thongbao{
+    height: 40px;
+    text-align: center;
+    background: red;
+    color: black;
+    line-height: 40px;
+    font-weight: bold;
+}
+.menu-logo{
+    height: 50px;
+    position: relative;
+    background: #eee;
+    border-radius: 30px;
+}
+.menu-logo .logo{
+    position:absolute;
+    left: 25px;
+}
+.menu-logo nav{
+    position: absolute;
+    top: 13px;
+    right: 10px;
+}
+.menu-logo nav a{
+    text-decoration: none;
+    color: black;
+    margin: 0 30px;
+}
+.menu-logo nav a:hover{
+    color: red;
+    font-weight: bold;
+    transition: all .3s linear;
+   background: #FBE5E5;
+   border-radius: 30px;
+
+}
+.banner{
+   width: 100%; 
+   text-align: center;
+   margin-top: 100px;
+}
+.banner img{
+    max-width: 100%;
+    border-radius: 30px;
+}
+.banner1{
+    width:100%;
+    text-align: center;
+
+}
+.banner1 img{
+    width: 100%;
+    border-radius: 50px;
+    height: 400px;
+}
+.produc {
+    text-align: center;
+}
+.Hinh1{
+    width: 310px;
+    height: 190px;
+    display: inline-block;
+    margin: 30px;
+}
+.Hinh1 img{
+   height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.hot {
+    color: red;
+    margin: 30px;
+}
+.sanpham {
+    text-align: center;
+}
+.hinh2 {
+    width: 25%;
+    display: inline-block;
+    margin: 40px;
+margin-bottom: 20px;
+border-radius: 30px;
+padding: 10px;
+}
+.hinh2 img {
+    max-width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+    height: 330px;
+}
+.Chudep {
+    color: red;
+    margin: 30px;
+}
+.hinh3 {
+    width: 25%;
+    display: inline-block;
+    margin: 40px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.hinh3 img{
+    max-width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+    height: 330px;
+}
+.chuphukien {
+    color: red;
+    margin: 30px;
+}
+.chutintuc {
+    color: red;
+    margin: 30px;
+}
+.hinh4 {
+    width: 25%;
+    display: inline-block;
+    margin: 30px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.hinh4 img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.hinh5{
+    width: 24%;
+    display: inline-block;
+    margin: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+.hinh5 img{
+    max-width: 100%;
+}
+footer {
+    width: 100%;
+    background: lightblue;
+ 
+}
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+    
+}
+footer a{
+    display: block;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+footer p{
+    margin: 20px;
+}
+footer .footer-item a:hover{
+    color: red;
+    font-weight: bold;
+    transition: all .3s linear;
+}
+.nguon{
+    
+    background: #FAEEE7;
+}
+.hinh2:hover{
+    transition: all .1s linear;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transform: scale(1.05);
+}
+.hinh2:hover b{
+    transition: all .1s linear;
+    background: coral;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transform: scale(1.05);
+}
+.hinh3:hover{
+    transition: all .1s linear;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transform: scale(1.05);
+}
+.hinh3:hover b{
+    transition: all .1s linear;
+    background: coral;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transform: scale(1.05);
+}
+.hinh4:hover{
+    transition: all .1s linear;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transform: scale(1.05);
+}
+.hinh4:hover b{
+    transition: all .1s linear;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transform: scale(1.05);
+    background: coral;
+}
+.hinh5:hover{
+    transition: all .1s linear;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transform: scale(1.05);
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.kiểuchữ{
+    text-align: center;
+}
+.form-group{
+    text-align: center;
+    background-color: #398AB9;
+}
+body{
+    background-color:#65C18C;
+}
+.kiểuchữ{
+    background-color:#3E497A;
+    color: #398AB9;
+}

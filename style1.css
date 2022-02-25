@@ -1,0 +1,23 @@
+.frm-g{
+    margin: 20px 20px ;
+   
+   
+}
+.frm-c{
+    margin: 5px 2px;
+    padding: 2px;
+    width: 200px;
+    display: block;
+    outline: none;
+  
+ 
+}
+.frm-c:focus{
+    box-shadow: 0 0 5px red;
+
+}
+input{
+    width: 200px;
+    position: absolute;
+    left: 100px;
+}
